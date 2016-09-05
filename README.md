@@ -1,5 +1,5 @@
 # Angular-based double checklist
-Draft of checklist for two categories of users. It is built on technology of reusable and isolated components of AngularJS. The items data is stored in json-file and getting from it by HTTP GET method.
+Draft of checklist for two categories of users. It is built on technology of reusable and isolated components of AngularJS. The items data is stored in json-file and getting from it by HTTP GET method. The application is absolutely responsive (it adapts to any screen).
 
 In order to view correctly, this application should be launched through the server (no matter local or remote). If you want to create server on your local computer you should do the following.
 
