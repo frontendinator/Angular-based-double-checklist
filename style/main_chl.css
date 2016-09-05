@@ -1,0 +1,344 @@
+/*Загальні стилі*/
+html, body, div, span, table, form, h1, h2, h3, h4, h5, h6, li, a, ul, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+input, textarea {
+    outline:none;
+}
+
+a {
+	color: #fff;
+}
+
+button {
+    outline: none;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+html {
+	width: 100%;
+	height: auto;
+}
+
+body {
+	width: 100%;
+	height: auto;
+}
+
+.central {
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+}
+
+/*Хедер*/
+header {
+	background: url("../checkimages/header.png") repeat-x;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+    color: #fff;
+}
+
+.logo_chl {
+	width: 169px;
+	height: 42px;
+	margin: 15px 0 0 20px;
+	background: url("../checkimages/logo.png") no-repeat 0 0;
+	float: left;
+}
+
+.backtosite_chl {
+	float: right;
+	font-size: 15px;
+	font-weight: 500;
+	margin: 15px 15px 0 0px;
+	text-decoration: underline;
+}
+
+.backtosite_chl:hover {
+	color: #32d7c7;
+}
+
+/*Центральна частина*/
+.title_chl {
+	width: 878px;
+    height: 65px;
+    padding: 10px 0 0 0;
+    background-color: #32d7c7;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+}
+
+.title_chl h2 {
+	margin-top: 9px;
+}
+
+.bigmark_chl {
+	width:50px;
+	height: 50px;
+	float: right;
+	background: url("../checkimages/questionmark.png") no-repeat 0 0;
+	background-size: 50px 50px;
+	position: absolute;
+	right: 12px;
+	bottom: 15px;
+}
+
+.bigmarkcard {
+	display: none;
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    background-color: #CAEDF1;
+    position: absolute;
+    top: 45px;
+    right: 61px;
+    padding: 15px;
+    text-align: justify;
+    z-index: 5;
+}
+
+.towhom_chlone {
+	width: 441px;
+	background-color: rgba(110, 70, 123, 0.57);
+	margin: 0 0 0 10px;
+	height:30px;
+	padding: 5px;
+	font-weight: 700;
+	border: 1px solid #674274;
+}
+
+.towhom_chltwo {
+	width: 441px;
+	background-color: rgba(110, 70, 123, 0.57);
+	margin: 0 0 0 10px;
+	height:30px;
+	padding: 5px;
+	font-weight: 700;
+	border: 1px solid #674274;
+}
+
+.towhom_chlone:hover {
+	cursor: pointer;
+	color: lightgrey;
+}
+
+.towhom_chltwo:hover {
+	cursor: pointer;
+	color: lightgrey;
+}
+
+.towhom_chlone {
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+.towhom_chltwo {
+	margin-left: -6px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.buttonnew {
+	position: relative;
+	background-color: #674274;
+	color: white;
+	font-weight: 700;
+}
+
+.buttonnew::after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #674274;
+	border-width: 9px;
+	margin-left: -9px;
+
+}
+
+section.items_chl {
+	margin-top: 13px;
+	margin-bottom: 21px;
+	width: 867px;
+    height: 105px;
+    background-color: lightgray;
+    padding: 5px 0 0 12px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #320F3E;
+    -moz-box-shadow: 0 0 20px #320F3E;
+    -webkit-box-shadow: 0 0 20px #320F3E;
+}
+
+section.items_chl img {
+	float: left;
+	width: 90px;
+	height: 90px;
+    margin-top: 5px;
+}
+
+section.items_chl h2 {
+	float: left;
+	margin: 30px 0 0 75px;
+	color: #674274;
+}
+
+section.items_chl label {
+	float: right;
+	margin: 23px 15px 0 0;
+}
+
+input[type=checkbox].css-checkbox {
+	position:absolute;
+	z-index:-1000;
+	left:-1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
+	margin:-1px;
+	padding:0;
+	border:0;
+}
+
+.css-label {
+	padding-left:55px;
+	height:50px; 
+	display:inline-block;
+	line-height:50px;
+	background-image:url("../checkimages/checkbox.png");
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:50px;
+	vertical-align:middle;
+	cursor:pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.che {
+	background-position: 0 -50px;
+}
+
+.chetwo {
+	text-decoration: line-through;
+}
+
+.chethree {
+	opacity: 0.2;
+}
+
+.chefour {
+	opacity: 0.2;
+}
+
+.liked_chl {
+	width: 35px;
+    height: 35px;
+    float: right;
+	background: url("../checkimages/exclamationmark.png") no-repeat 0 0;
+	background-size: 35px 35px;
+	margin: 32px 7px 0 0;
+}
+
+.liked_chl:active {
+	background-size: 33px 33px;
+	opacity: 1;
+}
+
+.liked_chl_new {
+	opacity: 0.5;
+    cursor: pointer;
+}
+
+.comcount_chl {
+	color:#674274;
+	font-size: 19px;
+	float: right;
+	margin: 39px 100px 0 0;
+}
+
+.comcount_chl_new {
+	 font-weight: bold;
+}
+
+/*Футер*/
+
+footer {
+	background: url("../checkimages/footer.png") repeat-x;
+	width: 100%;
+	height: 75px;
+	margin: 0 auto;
+    color: #fff;
+}
+
+
+/* media queries */
+
+@media screen and (min-width:761px) and (max-width:925px) {
+	.central {width: 744px; margin: 0 auto;}
+	.title_chl {width: 744px;}
+	.towhom_chlone {width: 372px; margin: 0 0 0 0px;}
+	.towhom_chltwo {width: 373px;}
+	section.items_chl {width: 732px;}
+}
+
+@media screen and (min-width:601px) and (max-width:760px) {
+	.central {width: 579px; margin: 0 auto;}
+	.title_chl {width: 583px; text-align: left;}
+	.title_chl h2 {font-size: 19px; margin-left: 5px;}
+	.towhom_chlone {width: 290px; margin: 0 0 0 0px;}
+	.towhom_chltwo {width: 291px;}
+	section.items_chl {width: 565px;}
+	section.items_chl h2 {margin: 30px 0 0 15px; font-size: 20px;}
+}
+
+@media screen and (min-width:480px) and (max-width:600px) {
+	.central {width: 455px; margin: 0 auto;}
+	.title_chl {width: 461px; text-align: left;}
+	.title_chl h2 {width: 255px; font-size: 14px; font-weight: 500; margin-left: 5px; margin-top: 3px;}
+	.towhom_chlone {width: 226px; margin: 0 0 0 0px;}
+	.towhom_chltwo {width: 227px;}
+	section.items_chl {width: 445px;}
+	section.items_chl h2 {margin: 37px 0 0 15px; font-size: 13px; font-weight: 500;}
+	section.items_chl label {margin: 23px 5px 0 0;}
+	.backtosite_chl {display: none;}
+}
+
+@media screen and (min-width:319px) and (max-width:479px) {
+	.central {width: 300px; margin: 0 auto;}
+	.title_chl {width: 301px; text-align: left;}
+	.title_chl h2 {width: 225px; font-size: 13px; font-weight: 500; margin-left: 5px; margin-top: 0px;}
+	.towhom_chlone {width: 150px; margin: 0 0 0 0px;}
+	.towhom_chltwo {width: 151px;}
+	section.items_chl {width: 285px;}
+	section.items_chl h2 {width: 120px; margin: 29px 0 0 10px; font-size: 13px; font-weight: 500;}
+	section.items_chl label {margin: 23px 5px 0 0;}
+	.backtosite_chl {display: none;}
+	.logo_chl {margin: 15px 0 0 71px;}
+	section.items_chl img {width: 65px; height: 65px; margin-top: 15px;}
+}

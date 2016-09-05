@@ -1,0 +1,88 @@
+{"items": [
+    {
+      "name": "Шкільна форма",
+      "image": "checkimages/forparents/shkolforma.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Спортивна форма",
+      "image": "checkimages/forparents/sportforma.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Взуття",
+      "image": "checkimages/forparents/shkolnaya-obuv.jpg",
+      "comments": "0"
+    },
+ 	  {
+      "name": "Зошити в лінійку та клітинку",
+      "image": "checkimages/forparents/zoshyty.jpg",
+      "comments": "0"
+    },
+  	{
+      "name": "Фарби та пензлі",
+      "image": "checkimages/forparents/paintbrush.jpeg",
+      "comments": "0"
+    },
+    {
+      "name": "Щоденник",
+      "image": "checkimages/forparents/diary.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Підручники",
+      "image": "checkimages/forparents/pidruchnyky.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Ранець",
+      "image": "checkimages/forparents/ranec.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Прописи і робочі зошити",
+      "image": "checkimages/forparents/propysy.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Ручки, олівці",
+      "image": "checkimages/forparents/penandpencil.png",
+      "comments": "0"
+    },
+    {
+      "name": "Альбоми",
+      "image": "checkimages/forparents/albom.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Гумки, точила",
+      "image": "checkimages/forparents/lastik-i-tochilka.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Кольорові олівці, маркери",
+      "image": "checkimages/forparents/olivci.jpeg",
+      "comments": "0"
+    },
+    {
+      "name": "Клей",
+      "image": "checkimages/forparents/school-glue.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Ножиці",
+      "image": "checkimages/forparents/scissors.jpg",
+      "comments": "0"
+    },
+     {
+      "name": "Линійки",
+      "image": "checkimages/forparents/rullers.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Коректор для виправлення помилок",
+      "image": "checkimages/forparents/corrector.jpg",
+      "comments": "0"
+    }
+]
+}

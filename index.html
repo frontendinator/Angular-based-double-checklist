@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk" data-ng-app="checklist">
+<head>
+	<meta charset="UTF-8">
+	<title>Контрольний список для вчителів та батьків</title>
+	<meta name="description" content="Список необхідних дій та речей для підготовки до нового навчального року 2016-2017">
+	<meta name="keywords" content="Навчальний рік, школа, вчителю, методична література, батькам">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style/main_chl.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="js/checklist.js"></script>
+	<script src="js/main_chl.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/parents.component.js"></script>
+	<script src="js/teachers.component.js"></script>
+</head>
+<body>
+	<header class="clearfix">
+	 	<div class="central">
+			<a href="http://schoolplusnet.com"><div class="logo_chl"></div></a>
+			<a href="http://schoolplusnet.com"><div class="backtosite_chl">Повернутися до головної сторінки</div></a>
+		</div>
+	</header>
+	<div class="title_chl central">
+		<h2>Перевірте свою готовність до нового навчального року</h2>
+		<div class="bigmark_chl"></div>
+		<div class="bigmarkcard">Для того, щоб викреслити зі списку неактуальний пункт - клікніть на білий квадратик праворуч</div>
+	</div>
+	<div class="central">
+		<button type="button" class="towhom_chlone" data-ng-click="choice = 1" data-ng-class="{buttonnew: choice === 1}" data-ng-init="choice = 1">Для вчителів</button>
+		<button type="button" class="towhom_chltwo" data-ng-click="choice = 2" data-ng-class="{buttonnew: choice === 2}">Для батьків</button>
+	</div>
+	<for-teachers data-ng-show="choice === 1"></for-teachers>
+	<for-parents data-ng-show="choice === 2"></for-parents>
+	<footer></footer>
+</body>
+</html>

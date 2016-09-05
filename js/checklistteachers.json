@@ -1,0 +1,33 @@
+{"items": [
+ 	 {
+      "name": "Ручки, олівці, маркери",
+      "image": "checkimages/forteachers/penandpencil.png",
+      "comments": "0"
+    },
+  	{
+      "name": "Одяг та взуття для урочистих заходів",
+      "image": "checkimages/forteachers/bigdress.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Одяг та взуття для повсякденної роботи",
+      "image": "checkimages/forteachers/dress.jpeg",
+      "comments": "0"
+    },
+	{
+      "name": "Підручники",
+      "image": "checkimages/forteachers/pidruchnyky.jpg",
+      "comments": "0"
+    },
+    {
+      "name": "Наочні матеріали",
+      "image": "checkimages/forteachers/naochnist.JPG",
+      "comments": "0"
+    },
+    {
+      "name": "Методична література",
+      "image": "checkimages/forteachers/metodychni.jpg",
+      "comments": "0"
+    }
+]
+}
