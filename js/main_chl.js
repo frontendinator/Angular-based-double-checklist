@@ -1,10 +1,10 @@
 function labelchecked() {
 	var	achl = document.querySelector('.bigmarkcard'),
 		bchl = document.querySelector('.bigmark_chl');
-		bchl.onmouseover = function() {
+	bchl.onmouseover = function() {
 		achl.style.display = "block";
 	};
-		bchl.onmouseout = function() {
+	bchl.onmouseout = function() {
 		achl.style.display = "none";
 	};
 };
