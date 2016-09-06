@@ -7,4 +7,4 @@ angular.
         $scope.items = response.data.items;
     });
   	}
-});
+}); 
