@@ -1,4 +1,3 @@
-/*Загальні стилі*/
 html, body, div, span, table, form, h1, h2, h3, h4, h5, h6, li, a, ul, p {
 	margin: 0;
 	padding: 0;
@@ -44,7 +43,7 @@ body {
 	margin: 0 auto;
 }
 
-/*Хедер*/
+/*Header*/
 header {
 	background: url("../checkimages/header.png") repeat-x;
 	width: 100%;
@@ -73,15 +72,15 @@ header {
 	color: #32d7c7;
 }
 
-/*Центральна частина*/
+/*Central part*/
 .title_chl {
-	width: 878px;
-    height: 65px;
-    padding: 10px 0 0 0;
-    background-color: #32d7c7;
-    text-align: center;
-    line-height: 30px;
-    position: relative;
+    	width: 878px;
+	height: 65px;
+    	padding: 10px 0 0 0;
+    	background-color: #32d7c7;
+    	text-align: center;
+    	line-height: 30px;
+    	position: relative;
 }
 
 .title_chl h2 {
@@ -174,7 +173,6 @@ header {
 	border-top-color: #674274;
 	border-width: 9px;
 	margin-left: -9px;
-
 }
 
 section.items_chl {
@@ -286,7 +284,7 @@ input[type=checkbox].css-checkbox {
 	 font-weight: bold;
 }
 
-/*Футер*/
+/*Footer*/
 
 footer {
 	background: url("../checkimages/footer.png") repeat-x;
