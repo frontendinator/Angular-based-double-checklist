@@ -1,88 +1,71 @@
 {"items": [
     {
       "name": "Шкільна форма",
-      "image": "checkimages/forparents/shkolforma.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/shkolforma.jpg"
     },
     {
       "name": "Спортивна форма",
-      "image": "checkimages/forparents/sportforma.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/sportforma.jpg"
     },
     {
       "name": "Взуття",
-      "image": "checkimages/forparents/shkolnaya-obuv.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/shkolnaya-obuv.jpg"
     },
  	  {
       "name": "Зошити в лінійку та клітинку",
-      "image": "checkimages/forparents/zoshyty.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/zoshyty.jpg"
     },
   	{
       "name": "Фарби та пензлі",
-      "image": "checkimages/forparents/paintbrush.jpeg",
-      "comments": "0"
+      "image": "checkimages/forparents/paintbrush.jpeg"
     },
     {
       "name": "Щоденник",
-      "image": "checkimages/forparents/diary.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/diary.jpg"
     },
     {
       "name": "Підручники",
-      "image": "checkimages/forparents/pidruchnyky.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/pidruchnyky.jpg"
     },
     {
       "name": "Ранець",
-      "image": "checkimages/forparents/ranec.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/ranec.jpg"
     },
     {
       "name": "Прописи і робочі зошити",
-      "image": "checkimages/forparents/propysy.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/propysy.jpg"
     },
     {
       "name": "Ручки, олівці",
-      "image": "checkimages/forparents/penandpencil.png",
-      "comments": "0"
+      "image": "checkimages/forparents/penandpencil.png"
     },
     {
       "name": "Альбоми",
-      "image": "checkimages/forparents/albom.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/albom.jpg"
     },
     {
       "name": "Гумки, точила",
-      "image": "checkimages/forparents/lastik-i-tochilka.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/lastik-i-tochilka.jpg"
     },
     {
       "name": "Кольорові олівці, маркери",
-      "image": "checkimages/forparents/olivci.jpeg",
-      "comments": "0"
+      "image": "checkimages/forparents/olivci.jpeg"
     },
     {
       "name": "Клей",
-      "image": "checkimages/forparents/school-glue.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/school-glue.jpg"
     },
     {
       "name": "Ножиці",
-      "image": "checkimages/forparents/scissors.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/scissors.jpg"
     },
      {
       "name": "Линійки",
-      "image": "checkimages/forparents/rullers.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/rullers.jpg"
     },
     {
       "name": "Коректор для виправлення помилок",
-      "image": "checkimages/forparents/corrector.jpg",
-      "comments": "0"
+      "image": "checkimages/forparents/corrector.jpg"
     }
 ]
 }
